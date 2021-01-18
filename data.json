@@ -1,0 +1,44 @@
+[
+  {
+    "name": "one",
+    "email": "one@gmail.com",
+    "friends": [
+      { "email": "two@gmail.com", "isBlock": false, "isSubscribe": false }
+    ],
+    "posts": []
+  },
+  {
+    "name": "two",
+    "email": "two@gmail.com",
+    "friends": [
+      { "email": "one@gmail.com", "isBlock": true, "isSubscribe": false }
+    ],
+    "posts": []
+  },
+  {
+    "name": "three",
+    "email": "three@gmail.com",
+    "friends": [
+      { "email": "two@gmail.com", "isBlock": false, "isSubscribe": false }
+    ],
+    "posts": []
+  },
+  {
+    "name": "four",
+    "email": "four@gmail.com",
+    "friends": [
+      { "email": "two@gmail.com", "isBlock": false, "isSubscribe": false },
+      { "email": "three@gmail.com", "isBlock": false, "isSubscribe": false }
+    ],
+    "posts": []
+  },
+  {
+    "name": "five",
+    "email": "five@gmail.com",
+    "friends": [
+      { "email": "four@gmail.com", "isBlock": false, "isSubscribe": false },
+      { "email": "three@gmail.com", "isBlock": false, "isSubscribe": false }
+    ],
+    "posts": []
+  }
+]
