@@ -34,6 +34,8 @@ mongoose
 app.use("/user", userRouter);
 app.use("/post", postRouter);
 
-app.listen(3000, () => {
+const server = app.listen(3000, () => {
   console.log(`Server running on port ${process.env.PORT}...`);
 });
+
+module.exports = server;
