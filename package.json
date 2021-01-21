@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node ./bin/www",
+    "dev": "nodemon app.js",
+    "start:test": "PORT=3030 DATABASE_URL='mongodb://localhost/re_engage_test' npm start",
+    "start:dev": "PORT=3000 DATABASE_URL='mongodb://localhost/re_engage' npm start"
   },
   "keywords": [],
   "author": "",

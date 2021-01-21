@@ -8,5 +8,5 @@ cache:
 services:
   - mongodb
 before_script:
-  - sleep 15
-  - mongo mydb_test --eval 'db.createUser({user:"sherren", pwd:"test", roles:["readWrite"]});'
+  - npm run start:test
+script: -npm test
